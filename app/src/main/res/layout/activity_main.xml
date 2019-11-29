@@ -52,4 +52,11 @@
         android:layout_centerHorizontal="true"
         android:text="Open Date Picker" />
 
+    <com.squareup.timessquare.CalendarPickerView
+        android:id="@+id/calender_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_date_picker"
+        android:layout_margin="20dp" />
+
 </RelativeLayout>
